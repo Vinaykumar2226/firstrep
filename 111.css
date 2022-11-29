@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: fixed;
+}
+.nav {
+  color: orange;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: arial;
+  text-align: center;
+}
+.lg {
+  width: 400px;
+  float: left;
+  margin-top: -1.5cm;
+}
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 27px;
+  font-size: 15px;
+}
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: arial;
+  transition: 0.2s ease-in-out;
+  font-size: 19px;
+}
+ul li a:hover {
+  color: red;
+}
+.search {
+  text-align: right;
+  margin-right: 60px;
+  margin-top: 27px;
+}
+.srch {
+  width: 330px;
+  height: 20px;
+  background: transparent;
+  border: 1px solid orange;
+  color: white;
+
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.srchbtn {
+  width: 100px;
+  height: 32px;
+  background: orange;
+  border: 2spx solid orange;
+  color: white;
+  font-size: 20px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: -0.5cm;
+}
+.srchbtn:hover {
+  color: orange;
+  background: white;
+  transition: 0.4s ease-in-out;
+}
+.des {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 3.8cm;
+}
+h1 {
+  font-size: 60px;
+  margin-left: 30px;
+  color: white;
+  font-family: arial;
+}
+.trvl {
+  color: orange;
+}
+#par {
+  color: white;
+  margin-top: 1cm;
+  font-size: 29px;
+  font-family: italic;
+}
+.aut {
+  color: orange;
+  margin-left: 15cm;
+  margin-top: 1cm;
+  font-size: 25px;
+  font-family: cursive;
+}
+.lgplce {
+  width: 350px;
+  height: 500px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  margin-top: -13cm;
+  left: 1110px;
+  position: absolute;
+  text-align: center;
+  border-radius: 10px;
+}
+#lghr {
+  color: white;
+  padding: 10px;
+  background: orange;
+  border: 3px solid orangered;
+  margin: 20px;
+  padding: 8px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.id {
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+.pass {
+  width: 300px;
+  height: 40px;
+  margin-top: 30px;
+  background: transparent;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  font-size: 20px;
+  color: white;
+}
+.lgnbtn {
+  width: 300px;
+  margin-top: 40px;
+  height: 40px;
+  background: lightskyblue;
+  font-family: Arial;
+  font-size: 20px;
+  border-radius: 10px;
+  color: black;
+}
+.lgnbtn:hover {
+  color: black;
+  background: white;
+  transition: 0.4s ease-in-out;
+}
+.da {
+  color: white;
+  margin-top: 30px;
+}
+.da a {
+  text-decoration: none;
+  color: red;
+}
+.navbar {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 80px;
+}
+.img {
+  margin-left: -2cm;
+}
+.ins:hover {
+  background: white;
+
+  transition: 0.4s ease-in-out;
+}
+.fb {
+  margin-left: 20px;
+}
+.fb:hover {
+  background: white;
+
+  transition: 0.4s ease-in-out;
+}
+.twt:hover {
+  background: white;
+  transition: 0.4s ease-in-out;
+}
+.twt {
+  margin-left: 20px;
+}
+.bottom {
+  color: white;
+  margin-top: 1.3cm;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  height: 30px;
+  text-align: center;
+}
